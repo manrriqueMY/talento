@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Talento Inclusivo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />        
+        <link rel="stylesheet" href="/assets/css/app.css">
+        <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/all.css">
+        <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/font-awesome-animation.min.css">        
+        <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+        <link rel="stylesheet" href="/assets/css/custom/style.css"/>
+
+        <link rel="stylesheet" href="/assets/css/custom/login.css">
+        <link rel="stylesheet" href="/assets/css/custom/company.css">
+    </head>
+    <body>
+        <header>
+    <div class="container">
+        <a href="/" class="logo">
+            <img alt="Talento Inclusivo" src="/assets/images/logo.png"/>
+        </a>
+        <nav class="d-none d-sm-none d-md-inline-block">
+            <ul>
+                <li><a href="/trabajos-chile">TRABAJOS INCLUSIVOS</a></li>
+                <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i></a></li>
+                <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/account/perfil">Perfil</a></li>
+                        <li><a href="/account/tests">Evaluaciones Laborales</a></li>
+                        <li><a href="/account/portafolio">Portafolio</a></li>
+                        <li><a href="/account/applications">Postulaciones</a></li>
+                        <li><a href="/account/invitations">Invitaciones</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/company/job/nuevo">Nuevo </a></li>
+                        <li><a href="/company/job/active">Activos </a></li>
+                        <li><a href="/company/job/closed">Cerrados </a></li>
+                        <li><a href="/company/job/waiting">En espera</a></li>
+                        <li><a href="/company/job/pending">Rechados</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/company/profile">Perfil</a></li>
+                        <li><a href="/company/usuarios">Usuarios</a></li>
+                        <li><a href="/company/personalizacion">Mailing</a></li>
+                    </ul>
+                </li>
+                <li><a href="/quienes-somos">QUIENES SOMOS</a></li>
+            </ul>
+        </nav>
+        <div class="inicio-session d-none d-sm-none d-md-inline-block">
+            <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
+            <a href="/portal" class="btn btn-default">Acceso Empresas</a>
+        </div>
+        <div class="menu-mobile">
+            <div tabindex="0">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="menu-mobile">
+                <ul>
+                    <li><a href="/trabajos-chile"><i class="fas fa-user"></i> TRABAJOS INCLUSIVOS</a></li>
+                    <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i> LLAMAR A UN INTERPRETE</a></li>
+                    <li><a href="#"><i class="fas fa-volume-up"></i> ESCUCHAR OPCIONES</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/account/perfil">Perfil</a></li>
+                            <li><a href="/account/tests">Evaluaciones Laborales</a></li>
+                            <li><a href="/account/portafolio">Portafolio</a></li>
+                            <li><a href="/account/applications">Postulaciones</a></li>
+                            <li><a href="/account/invitations">Invitaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/company/job/active">Activos </a></li>
+                            <li><a href="/company/job/closed">Cerrados </a></li>
+                            <li><a href="/company/job/waiting">En espera</a></li>
+                            <li><a href="/company/job/pending">Rechados</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/company/profile">Perfil</a></li>
+                            <li><a href="/company/usuarios">Usuarios</a></li>
+                            <li><a href="/company/personalizacion">Mailing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/quienes-somos"><i class="fas fa-info-circle"></i> QUIENES SOMOS</a></li>
+                </ul>
+                <div class="inicio-session">
+                    <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
+                    <a href="/portal" class="btn btn-default">Acceso Empresas</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>        <div id="content-wrapper">
+    <div class="container white_content">
+    	<br>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="sub_menu" class="text-center">
+				    <div class="hidden-xs row">
+
+				        <div class="col-sm-3">
+				            <a class="link " href="/company/job/active">
+				                Activos
+				                &nbsp;<span class="alert_icon">0</span>
+				            </a>
+				        </div>
+				        <div class="col-sm-3">
+				            <a class="link selected" href="/company/job/closed">
+				                Cerrados
+				                &nbsp;<span class="alert_icon">0</span>
+				            </a>
+				        </div>
+				        <div class="col-sm-3">
+				            <a class="link" href="/company/job/waiting">
+				                En espera
+				                &nbsp;<span class="alert_icon">0</span>
+				            </a>
+				        </div>
+				        <div class="col-sm-3">
+				            <a class="link" href="/company/job/pending">
+				                Rechazados &nbsp;<span class="alert_icon">0</span>
+				            </a>
+				        </div>
+				        <div class="clearfix"></div>
+				    </div>
+
+				    <div class="visible-xs-block">
+				        <div class="col-xs-12">
+				            <a class="link selected" onclick="$('#account_mobile_menu').slideToggle();">
+				                <span class="caret pull-right" id="account_mobile_caret"></span>
+				                Cerrados
+				            </a>
+				            <div id="account_mobile_menu" style="display: none;">
+				                <a class="link s" href="/company/job/active">
+				                    Activos
+				                </a>
+				                <a class="link hidden-x" href="/company/job/closed">
+				                    Cerrados
+				                </a>
+				                <a class="link" href="/company/job/waiting">
+				                    En espera
+				                </a>
+				                <a class="link" href="/company/job/pending">
+				                    Rechazados </a>
+				            </div>
+				        </div>
+				        <div class="clearfix"></div>
+				    </div>
+				</div>
+                <br>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm">
+    <br>
+    <h5 class="black left">Publica una oferta</h5>
+    <div class="sidebar_bg">
+        <a class="btn btn-flex" href="/company/job/profesional">Profesional<i class="fa fa-briefcase pull-right"></i></a>
+        <a class="btn btn-flex" href="/company/job/practica">Práctica<i class="fa fa-graduation-cap pull-right"></i></a>
+        <a class="btn btn-flex" href="/company/job/estudiante">Trabajo para estudiantes<i class="fas fa-handshake pull-right"></i></a>
+    </div>
+    <div class="sidebar_bg sidebar_account top_buffer">
+        <h5 class="black left">Hola manrrique,</h5>
+        <p>manrrique.my@gmail.com
+        </p>
+        <p class="hint ml0">¿No eres manrrique? <a href="/myCompany/config">Editar</a></p>
+        <a href="#" class="btn btn-block btn-primary">Agregar Usuario</a>
+    </div>
+    <br>
+</div>        </div>
+    </div>
+</div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="login_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" style="position: relative;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i style="font-size: 22px;" class="fa fa-times-circle"></i> </button>
+                <div class="clearfix"></div>
+                <a class="btn btn-sm btn-voice " style="left: 10px; top: 10px; z-index: 10;"><i class="fa fa-volume-up"></i></a>
+                <div class="col-xs-12 home_register login_reqlut text-center mb20">
+                    <div class="login_reqlut_or"> Utiliza tu cuenta de <img src="/assets/images/logo-gris.png"> </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 home_register home_login" id="modal-inner-login">
+                        <div class="or">ingresa con tu email</div>
+                        <form id="userLoginForm" action="/account/login_check" class="needs-validation" novalidate
+                            role="form" method="POST">
+                            <div>
+                                <div class="form-group has-feedback has-success">
+                                    <label for="username">E-mail registrado</label>
+                                    <input type="email" id="username" name="_username" required class="form-control">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-group has-feedback">
+                                    <label for="password">Contraseña</label>
+                                    <input id="password" type="password" name="_password" required class="form-control">
+                                </div>
+                            </div>
+
+                            <div class>
+                                <button class="btn btn-outline-primary btn-block " id="userLoginSubmit">Iniciar sesión<i class="fa fa-refresh fa-spin loading ml30"  style="display: none;"></i></button>
+                            </div>
+
+                            <div class="hint">
+                                <a href="/password" class="text-info">¿Olvidaste tu contraseña?</a>
+                                <div class="visible-xs-block">
+                                    <a class="text-info" onclick="ToggleLoginModal(false)">¿Eres nuevo?</a>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-xs-12  hidden-xs home_register" id="modal-inner-register">
+                        <div class="or">crea tu cuenta</div>
+                        <form action="/register" class="userRegisterForm needs-validation" novalidate role="form" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="name-register">Nombre</label>
+                                        <input id="name-register" type="text" name="name" required  class="form-control">
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="lastname-register">Apellidos</label>
+                                        <input id="lastname-register" type="text" name="lastName" required  class="form-control">
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="email-register">Email</label>
+                                        <input id="email-register" type="text" name="username" class="form-control" required>
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="password-register">Contraseña</label>
+                                        <input id="password-register" type="password" name="password" class="form-control" required>
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12"><button class="btn btn-primary btn-block userRegisterSubmit ">Crear cuenta</button></div>
+                            </div>
+
+                            <div class="hint">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        Al registrarse usted estará de acuerdo con los <a target="_blank"
+                                        href="/home/terminosCondiciones.html">Términos &amp; Condiciones de Uso</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hint">
+                                <div class="visible-xs-block">
+                                    <a onclick="ToggleLoginModal(true)">¿Ya estás registrado?</a>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="modal" tabindex="-1" role="dialog" id="contact_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/home/feedback" class="needs-validation" method="POST" novalidate>
+                <div class="modal-header">                    
+                    <h4 class="modal-title"><i class="fa fa-envelope"></i> Tu opinión nos importa</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label required" for="Feedback_email">Correo</label>
+                        <input type="email" id="Feedback_email" name="email" required col="col-xs-12" class="form-control">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="form-group">
+                        <label class="control-label required" for="Feedback_content">Mensaje</label>
+                        <textarea id="Feedback_content" name="content" required col="col-xs-12" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">                    
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary" style="pointer-events: all; cursor: pointer;">Enviar</button>
+                    <br><br>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-4">
+                <img class="img-responsive logo-footer" src="/assets/images/logo-footer.png" alt="Talento Inclusivo">
+            </div>
+            <div class="col-sm-4 col-8 pt-md-5 pt-0 partners">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <a href="https://www.redapis.cl/" target="_blank"><img class="img-responsive" src="/assets/images/partners/red-apis.png" alt="Red-Apis"></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <img class="img-responsive" src="/assets/images/partners/atrevete.png" alt="Red-Apis">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 links">
+                <div class="text-right redes-s">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="text-right">
+                    <a href="#" data-toggle="modal" data-target="#contact_modal">Contactános</a><br/>
+                    <a href="terminosCondiciones">Términos y Condiciones</a><br/>
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>        
+        
+        <script src="/assets/js/app.js"></script>
+        <script src="/assets/plugins/slick/slick.js"></script>
+
+        <script src="/assets/js/custom/login.js"></script>
+            </body>
+</html>

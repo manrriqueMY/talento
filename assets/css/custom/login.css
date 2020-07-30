@@ -1,0 +1,53 @@
+.modal-dialog{max-width: 768px;}
+.home_register .or{color: #62a7d8; font-size: 11px; text-align: center; margin: 0 0 10px 0; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; position: relative;}
+.home_register .or:after{content: ''; position: absolute; width: 25%; height: 1px; background-color: #ccc; top: 8px; right: 0; }
+.home_register .or:before{content: ''; position: absolute; width: 25%; height: 1px; background-color: #ccc; top: 8px; left: 0; }
+
+#login_modal h1{color: #FF9999;}
+.modal-content {  border: 5px solid #FF9999;  }
+.modal-content .btn-info{color: #fff; background-color: #FF9999; border-color: #FF9999; border-width: 2px; padding: 5px 12px;}
+.modal-content .btn-info:hover, .modal-content .btn-info:active{color: #fff; background-color: #104ECA; border-color: #104ECA; border-width: 2px;}
+.home_register .or{color: #FF9999;}
+
+.visible-xs-block{
+    visibility: hidden;
+}
+.form-group label{font-weight: bold;}
+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #FF9999;
+    border-color: #FF9999;
+}
+.btn-outline-primary, .btn-outline-primary:focus {
+    background-color: #fff;
+    color: #FF9999;
+    border-color: #FF9999;
+}
+.login_reqlut .login_reqlut_or {
+    font-size: 14px;
+    color: #ababab !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.login_reqlut {
+    padding: 10px 0 0 0;
+    margin-bottom: 2rem;
+}
+@media (max-width: 768px){
+    .visible-xs-block{
+        visibility: visible;
+    }
+    #modal-inner-register{
+        display: none;
+    }
+}
+.hint{
+    margin-top: 20px;
+}
+.userRegisterForm .col-md-6, .userRegisterForm .col-md-12{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#login_modal a{
+    color: #FF9999;
+}

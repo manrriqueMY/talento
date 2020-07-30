@@ -1,0 +1,66 @@
+#company_header{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+	padding: 20px;
+}
+#company_header > div{
+	display: flex;
+	align-items: center;
+}
+.header{
+	font-size: 18px;
+	color: white;
+}
+.header a{
+	color: white;
+}
+#job_header .heading{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+#job_header h1 {
+    color: #FF9999;
+    font-size: 24px;
+}
+#postula{float: right;margin-right: 10px;}
+.job_section h2 {
+    color: #FF9999;
+    font-size: 18px;
+}
+.job_section .row {
+    padding: 7px 0;
+}
+.job_section {
+    margin-top: 20px;
+    padding:20px;
+	background-color: white;
+}
+.msg_bg a{
+    color: #fff;
+}
+.msg_bg {
+    padding: 25px 15px;
+    background-color: #f3f4f5;
+    font-family: 'Lato';
+    font-size: 16px;
+    text-align: center;
+    border-top: 1px solid #e0e2e2;
+    margin-bottom: 25px;
+}
+.added_item {
+    font-size: 13px;
+    background-color: gray;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 3px;
+    padding: 3px 10px;
+    display: inline;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+#content-wrapper{
+	background-color: #efefef;
+}

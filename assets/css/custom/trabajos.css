@@ -1,0 +1,70 @@
+#filtro{
+	margin:30px 0px;
+}
+.tt-input{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	position: relative; 
+	vertical-align: top; 
+	background-color: transparent;
+}
+#searchSubmit{
+	cursor: pointer;
+	border-top-right-radius : 50px;
+	border-bottom-right-radius: 50px;
+}
+#filtro > div {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#trabajos .fab {
+    font-size: 21px;
+    color: #888;
+    margin: 0 5px 10px 0;
+}
+#trabajos p{
+	margin-bottom: 0px;
+}
+#descripcion{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+#descripcion .subtitle>a{
+	color: gray;
+	font-weight: bold;
+}
+#descripcion .title>a{
+	font-weight: bold;
+	color: #FF9999;
+}
+#descripcion .summary>a{
+	color: #FF9999;	
+}
+.tags{
+	background-color: #888;
+	font-size: 13px;
+	color: #fff;
+	border-radius: 3px;
+	padding: 3px 10px;
+	display: inline;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+#trabajos > div{
+	margin: 10px;
+	background-color: #fff;
+	padding: 20px;
+	border: 2px solid #ccc;
+}
+.col-xs-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.postula{
+	padding: 0px;
+}
+#filtro label {
+    font-weight: bold;
+    color: #FF9999;
+}

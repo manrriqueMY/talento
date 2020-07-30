@@ -1,0 +1,87 @@
+.sidebar_bg {
+    background-color: #f6f7f8;
+    border: 1px solid #e7eeed;
+    padding: 15px;
+    margin-top: 5px;
+}
+.btn-flex{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border:1px solid gray;
+}
+.btn-flex:hover{
+	background-color: #f6f7f8;
+}
+h1.black, h2.black, h3.black {
+    font-size: 16px;
+    color: #233133;
+    padding-bottom: 4px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.company_sum.first {
+    border-left: 1px dashed #7bbcca;
+}
+.company_sum {
+    background-color: #e7eeed;
+    border-right: 1px dashed #7bbcca;
+    padding: 15px;
+    text-align: center;
+}
+.company_sum .big_num {
+    font-size: 21px;
+    color: #6ca5b2;
+}
+.company_sum .name {
+    color: #233133;
+    font-weight: 600;
+    font-size: 13px;
+}
+.company_sum .lower {
+    font-weight: 400;
+    font-size: 13px;
+    color: #b0bdbd;
+    margin-bottom: 10px;
+}
+a{
+	color: #FF9999;
+}
+th{
+	color: #FF9999;
+    border-bottom: 2px solid #FF9999;
+}
+#sub_menu .link {
+    border-bottom: 6px solid #cfd3d3;
+    color: #cfd3d3;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 17px 10px;
+    display: block;
+    text-decoration: none;
+}
+#sub_menu .link:hover, #sub_menu .link.selected {
+    border-color: #FF9999;
+    color: #FF9999;
+}
+#sub_menu .col-sm-3{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+@media (max-width: 765px) {
+	.hidden-xs{
+		display: none;
+	}
+}
+#content-wrapper {
+    min-height: 550px;
+}
+.heading-title{
+    margin-bottom: 30px;
+}
+.advice .title {
+    color: #96bbbc;
+    font-size: 14px;
+    text-transform: uppercase;
+}

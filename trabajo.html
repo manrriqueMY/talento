@@ -1,0 +1,504 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Talento Inclusivo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />        
+        <link rel="stylesheet" href="/assets/css/app.css">
+        <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/all.css">
+        <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/font-awesome-animation.min.css">        
+        <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+        <link rel="stylesheet" href="/assets/css/custom/style.css"/>
+
+        <link rel="stylesheet" href="/assets/css/custom/login.css">
+        <link rel="stylesheet" href="/assets/css/custom/trabajo.css">
+    </head>
+    <body>
+        <header>
+    <div class="container">
+        <a href="/" class="logo">
+            <img alt="Talento Inclusivo" src="/assets/images/logo.png"/>
+        </a>
+        <nav class="d-none d-sm-none d-md-inline-block">
+            <ul>
+                <li><a href="/trabajos-chile">TRABAJOS INCLUSIVOS</a></li>
+                <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i></a></li>
+                <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/account/perfil">Perfil</a></li>
+                        <li><a href="/account/tests">Evaluaciones Laborales</a></li>
+                        <li><a href="/account/portafolio">Portafolio</a></li>
+                        <li><a href="/account/applications">Postulaciones</a></li>
+                        <li><a href="/account/invitations">Invitaciones</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/company/job/nuevo">Nuevo </a></li>
+                        <li><a href="/company/job/active">Activos </a></li>
+                        <li><a href="/company/job/closed">Cerrados </a></li>
+                        <li><a href="/company/job/waiting">En espera</a></li>
+                        <li><a href="/company/job/pending">Rechados</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/company/profile">Perfil</a></li>
+                        <li><a href="/company/usuarios">Usuarios</a></li>
+                        <li><a href="/company/personalizacion">Mailing</a></li>
+                    </ul>
+                </li>
+                <li><a href="/quienes-somos">QUIENES SOMOS</a></li>
+            </ul>
+        </nav>
+        <div class="inicio-session d-none d-sm-none d-md-inline-block">
+            <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
+            <a href="/portal" class="btn btn-default">Acceso Empresas</a>
+        </div>
+        <div class="menu-mobile">
+            <div tabindex="0">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="menu-mobile">
+                <ul>
+                    <li><a href="/trabajos-chile"><i class="fas fa-user"></i> TRABAJOS INCLUSIVOS</a></li>
+                    <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i> LLAMAR A UN INTERPRETE</a></li>
+                    <li><a href="#"><i class="fas fa-volume-up"></i> ESCUCHAR OPCIONES</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/account/perfil">Perfil</a></li>
+                            <li><a href="/account/tests">Evaluaciones Laborales</a></li>
+                            <li><a href="/account/portafolio">Portafolio</a></li>
+                            <li><a href="/account/applications">Postulaciones</a></li>
+                            <li><a href="/account/invitations">Invitaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/company/job/active">Activos </a></li>
+                            <li><a href="/company/job/closed">Cerrados </a></li>
+                            <li><a href="/company/job/waiting">En espera</a></li>
+                            <li><a href="/company/job/pending">Rechados</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/company/profile">Perfil</a></li>
+                            <li><a href="/company/usuarios">Usuarios</a></li>
+                            <li><a href="/company/personalizacion">Mailing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/quienes-somos"><i class="fas fa-info-circle"></i> QUIENES SOMOS</a></li>
+                </ul>
+                <div class="inicio-session">
+                    <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
+                    <a href="/portal" class="btn btn-default">Acceso Empresas</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>        
+<div id="content-wrapper">
+    <div class="container">
+        <div class="header">
+            <div id="company_header">
+                <div id="desc">
+                    <div class="header_content">
+                        <div class="photo">
+                            <div class="img_wrapper">
+                                <img class="img-responsive"
+                                    src="//reqlut2.s3.amazonaws.com/uploads/logos/ef0168fd1028554079e3d8903f4f95daad2e2984-5242880.jpg"
+                                    alt="Trabajo en Antofagasta Minerals" title="Empleo en Antofagasta Minerals">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Antofagasta Minerals</div>
+                        <small class="subtitle mt20">
+                            Chile
+                            | <span>Mineria, Energía y Recursos Naturales</span>
+                            | <a href="/trabajar-en-antofagasta-minerals.html">Ver más +</a>
+                        </small>
+                    </div>
+                </div>
+                <div class="stats">
+                    <a class="stat" href="/trabajar-en-antofagasta-minerals#jobOffers">
+                        <div class="number">4</div>
+                        <div class="stat_name">Trabajos</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="job_header">
+            <div class="col-md-12">
+                <div class="heading">
+                    <div>
+                        <h4>
+                            <span>Jefe (a) Turno Perforación y Tronadura (14065)</span>
+                            <a class="btn btn-sm btn-voice "><i class="fa fa-volume-up"></i></a>                        
+                        </h4>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary" href="#apply" id="postula"><i class="far fa-hand-pointer"></i> Postular</a>
+                    </div>
+                </div>
+                <b>Publicado el 26 de Jul</b>
+            </div>
+        </div> 
+        <div class="col-xs-12">
+            <div class="job_section">
+                <div class="text">
+                    <br>
+                    En Antofagasta Minerals, principal grupo minero privado de Chile, estamos comprometidos
+                    con
+                    el desarrollo de un ambiente de trabajo inclusivo que promueva la diversidad, como
+                    habilitador clave para el logro de nuestra estrategia de negocio.<br>
+                    <br>
+                    Por ello, buscamos incorporar a personas que aspiren a construir una minería más
+                    sustentable
+                    e inclusiva.<br>
+                    <br>
+                    Si estás en búsqueda de nuevos desafíos, te invitamos a participar del proceso:<br>
+                    <br>
+                    Jefe(a) de Turno Perforación y Tronadura– Compañía Minera Centinela 7x7<br>
+                    <br>
+                    El o la Jefe(a) de Turno Perforación y Tronadura es un profesional del área de la
+                    Ingeniería
+                    Civil o Ejecución Minas, con al menos 2 años de experiencia en operaciones mineras rajo
+                    abierto, idealmente con habilidades de liderazgo, comunicación y gestión. El o la
+                    profesional integrará el equipo de la Superintendencia de P&amp;T de Centinela,
+                    reportando
+                    directamente al superintendente las funciones y principales actividades, serán
+                    desarrolladas
+                    en el rajo Esperanza, para asegurar una alimentación diaria a Planta de 100.000 tons,
+                    con
+                    tronaduras que bordean las 400.000 tons.<br>
+                    <br>
+                    Propósito del cargo: Liderar los equipos de trabajo de perforación y tronaduras
+                    asignados
+                    para la ejecución y cumplimiento del Plan de Producción y Desarrollo, asegurando una
+                    alimentación y continuidad a Chancado, de acuerdo con los parámetros entregados por
+                    Programación Operativa.<br>
+                    <br>
+                    Desafíos:<br>
+                    - Garantizar la seguridad de las personas y los equipos en el proceso de P&amp;T,
+                    definiendo
+                    área segura de tronadura y asegurando el cumplimiento de las políticas de seguridad del
+                    Grupo Minero.<br>
+                    - Asegurar control de gestión y seguimiento de calidad del proceso completo de P&amp;T,
+                    según el cumplimiento de estándares de la operación.<br>
+                    - Generar levantamiento de indicadores que permitan generar alertas o identificar
+                    desviaciones de proceso, para generar planes de acción o de mejora continua para el
+                    área.<br>
+                    - Actuar como un influenciador y articulador de las diferentes áreas.<br>
+                    <br>
+                    Requisitos:<br>
+                    - Mínimo 2 años de experiencia en Perforación y Tronadura y/o operaciones mina (carguío
+                    y
+                    transporte, servicios mina, planificación de la producción o corto plazo)<br>
+                    - Grado universitario en Ingeniería civil o ejecución de Minas.<br>
+                    - Conocimientos de perforación, tronadura, geotecnia, estabilidad de paredes,
+                    fragmentación,
+                    alimentación planta (P80)<br>
+                    - Experiencia en minas de rajo abierto<br>
+                    - Manejo de programa de planificación Vulcan (deseable)<br>
+                    - Experiencia liderando equipos de trabajo deseable.<br>
+                    - Licencia de conducir de al menos 2 años, para acceder a licencia interna.<br>
+                    - Disponibilidad de trabajar en faena de la segunda región, bajo sistema de turnos
+                    rotativos
+                    7x7.<br>
+                    <br>
+                    Oferta Laboral inclusiva bajo el marco de la ley 21.015, que incentiva la inclusión de
+                    Personas con Discapacidad al mundo laboral.
+                </div>
+            </div>
+            <div class="job_section">
+                <div class="heading-block heading-minimal">
+                    <h2>
+                        Detalles
+
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Tipo de oferta</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Profesional</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Ubicación</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">
+                            <div>
+                                Sierra Gorda, II Región de Antofagasta, Chile
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Área de trabajo</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Operaciones y Logística
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Tipo de cargo</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Jefe</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Jornada</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Por turno</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Contrato</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Indefinido</div>
+                    </div>
+                </div>
+            </div>
+            <div class="job_section">
+                <h2>Inclusión laboral</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/assets/images/reqlut/logo-inclusion.png" style="max-width: 150px;"
+                            title="Esta oferta es apta para personas con alguna discapacidad"
+                            alt="Oferta inclusiva">
+                        <div class="clearfix"></div>
+                        <div class="mt10 hidden-xs text-center"
+                            style="max-width: 150px; word-wrap:break-word; text-align: justify;">
+                            <b>Ley 21.015</b>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 text mt20-xs" style="word-wrap:break-word; text-align: justify;">
+                        En caso de que requieras algún ajuste para participar del proceso de reclutamiento y
+                        selección, avísanos para facilitar tu participación en igualdad de condiciones. (Ley
+                        20.422).
+                    </div>
+                </div>
+            </div>
+            <div class="job_section">
+                <div class="heading-block heading-minimal">
+                    <h2>Requisitos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Carrera(s)</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Ingeniería</div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><b>Experiencia laboral</b></div>
+                    <div class="col-sm-8">
+                        <div class="added_item">Indiferente (de 0 a más de
+                            20
+                            años de experiencia)</div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="job_section" id="apply">
+                <h2>Postular</h2>
+                <div class="msg_bg">
+                    <p>
+                        Ingresa o crea tu cuenta en Talento Inclusivo para postular
+                        <a class="btn btn-sm btn-voice"><i class="fa fa-volume-up"></i></a>
+                    </p>
+                    <a class="loginLink btn btn-primary " role="button">Iniciar
+                        sesión</a>
+                </div>
+            </div>
+        </div>       
+    </div>
+</div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="login_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" style="position: relative;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i style="font-size: 22px;" class="fa fa-times-circle"></i> </button>
+                <div class="clearfix"></div>
+                <a class="btn btn-sm btn-voice " style="left: 10px; top: 10px; z-index: 10;"><i class="fa fa-volume-up"></i></a>
+                <div class="col-xs-12 home_register login_reqlut text-center mb20">
+                    <div class="login_reqlut_or"> Utiliza tu cuenta de <img src="/assets/images/logo-gris.png"> </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 home_register home_login" id="modal-inner-login">
+                        <div class="or">ingresa con tu email</div>
+                        <form id="userLoginForm" action="/account/login_check" class="needs-validation" novalidate
+                            role="form" method="POST">
+                            <div>
+                                <div class="form-group has-feedback has-success">
+                                    <label for="username">E-mail registrado</label>
+                                    <input type="email" id="username" name="_username" required class="form-control">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-group has-feedback">
+                                    <label for="password">Contraseña</label>
+                                    <input id="password" type="password" name="_password" required class="form-control">
+                                </div>
+                            </div>
+
+                            <div class>
+                                <button class="btn btn-outline-primary btn-block " id="userLoginSubmit">Iniciar sesión<i class="fa fa-refresh fa-spin loading ml30"  style="display: none;"></i></button>
+                            </div>
+
+                            <div class="hint">
+                                <a href="/password" class="text-info">¿Olvidaste tu contraseña?</a>
+                                <div class="visible-xs-block">
+                                    <a class="text-info" onclick="ToggleLoginModal(false)">¿Eres nuevo?</a>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-xs-12  hidden-xs home_register" id="modal-inner-register">
+                        <div class="or">crea tu cuenta</div>
+                        <form action="/register" class="userRegisterForm needs-validation" novalidate role="form" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="name-register">Nombre</label>
+                                        <input id="name-register" type="text" name="name" required  class="form-control">
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="lastname-register">Apellidos</label>
+                                        <input id="lastname-register" type="text" name="lastName" required  class="form-control">
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="email-register">Email</label>
+                                        <input id="email-register" type="text" name="username" class="form-control" required>
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="password-register">Contraseña</label>
+                                        <input id="password-register" type="password" name="password" class="form-control" required>
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12"><button class="btn btn-primary btn-block userRegisterSubmit ">Crear cuenta</button></div>
+                            </div>
+
+                            <div class="hint">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        Al registrarse usted estará de acuerdo con los <a target="_blank"
+                                        href="/home/terminosCondiciones.html">Términos &amp; Condiciones de Uso</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hint">
+                                <div class="visible-xs-block">
+                                    <a onclick="ToggleLoginModal(true)">¿Ya estás registrado?</a>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="modal" tabindex="-1" role="dialog" id="contact_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/home/feedback" class="needs-validation" method="POST" novalidate>
+                <div class="modal-header">                    
+                    <h4 class="modal-title"><i class="fa fa-envelope"></i> Tu opinión nos importa</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label required" for="Feedback_email">Correo</label>
+                        <input type="email" id="Feedback_email" name="email" required col="col-xs-12" class="form-control">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="form-group">
+                        <label class="control-label required" for="Feedback_content">Mensaje</label>
+                        <textarea id="Feedback_content" name="content" required col="col-xs-12" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">                    
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary" style="pointer-events: all; cursor: pointer;">Enviar</button>
+                    <br><br>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-4">
+                <img class="img-responsive logo-footer" src="/assets/images/logo-footer.png" alt="Talento Inclusivo">
+            </div>
+            <div class="col-sm-4 col-8 pt-md-5 pt-0 partners">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <a href="https://www.redapis.cl/" target="_blank"><img class="img-responsive" src="/assets/images/partners/red-apis.png" alt="Red-Apis"></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <img class="img-responsive" src="/assets/images/partners/atrevete.png" alt="Red-Apis">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 links">
+                <div class="text-right redes-s">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="text-right">
+                    <a href="#" data-toggle="modal" data-target="#contact_modal">Contactános</a><br/>
+                    <a href="terminosCondiciones">Términos y Condiciones</a><br/>
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>        
+        
+        <script src="/assets/js/app.js"></script>
+        <script src="/assets/plugins/slick/slick.js"></script>
+
+        <script src="/assets/js/custom/login.js"></script>
+            </body>
+</html>

@@ -1,0 +1,47 @@
+.heading-title{
+    margin: 29px 20px 0px 20px;
+}
+
+.heading-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    z-index: 9;
+    background: #e6e6e6;
+}
+.heading-title::after {
+    background: #FF9999;
+    content: "";
+    display: block;
+    position: relative;
+    z-index: 10;
+    width: 80px;
+    height: 1px;
+    margin: 20px 0 0;
+}
+#content-wrapper,#content-wrapper .container,.container > .row{
+	background-color: #eaeaea;
+	min-height: calc(100vh - 70px);
+
+}
+#loginForm .row{
+    background-color: #fff;
+}
+#header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+}
+.btn-primary{
+    border-color: #FF9999;
+    background-color: #FF9999;
+}
+a{
+    color: #FF9999;
+}
+.control-label{
+    font-weight: bold;
+    margin-top: 10px;
+}
