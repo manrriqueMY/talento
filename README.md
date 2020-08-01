@@ -2,7 +2,7 @@
 
 https://spyrohost.herokuapp.com/
 
-
+````
 ruta : '/' => 'index.html'
 ruta : '/portal' => 'portal.html'
 ruta : '/trabajos-chile' => 'trabajos-chile.html'
@@ -40,3 +40,4 @@ ruta : '/company/job/pending' => 'company/job/pending.html'
 ruta : '/company/job/nuevo' => 'company/job/nuevo.html'
 
 ruta : '/admin/cargo' => 'admin/cargo.html'
+````
