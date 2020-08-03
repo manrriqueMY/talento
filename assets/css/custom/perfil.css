@@ -1,9 +1,11 @@
 .pull-right a{
 	float: right;
 	color: #FF9999;
+    font-size: 1.1rem;
 }
 .completeness .item,.completenes .item {
     padding: 3px 10px;
+    font-size: 14px;
 }
 .completeness .item a, .completenes .item {
     color: #ccc;
@@ -174,4 +176,15 @@
 .mb_question .options .light {
     background-color: #dddddd;
     border-right: solid 1px #d0d0d0;
+}
+.progressbar{
+    min-height:7px; 
+    background-color: #f1f1f1; 
+    border-radius:3px; 
+    margin:5px 0px;
+}
+.progressa{
+    min-height:7px; 
+    background-color: #FF9999; 
+    border-radius:3px;
 }

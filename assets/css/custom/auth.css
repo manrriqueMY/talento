@@ -2,16 +2,16 @@
     margin: 29px 20px 0px 20px;
 }
 
-.heading-title::before {
+.line-title::before {
     content: "";
     display: block;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     height: 1px;
     z-index: 9;
     background: #e6e6e6;
+    top: 9px;
 }
-.heading-title::after {
+.line-title::after {
     background: #FF9999;
     content: "";
     display: block;
@@ -19,8 +19,8 @@
     z-index: 10;
     width: 80px;
     height: 1px;
-    margin: 20px 0 0;
 }
+
 #content-wrapper,#content-wrapper .container,.container > .row{
 	background-color: #eaeaea;
 	min-height: calc(100vh - 70px);

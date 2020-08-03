@@ -1,0 +1,27 @@
+#company_header{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	padding: 20px;
+}
+#company_header > div{
+	display: flex;
+	align-items: center;
+}
+.header{
+	font-size: 18px;
+}
+.stats .btn{
+	border-radius: 50px;
+	margin-right: 10px;
+}
+.stats .fa-thumbs-up{
+	color: green;
+}
+.stats .fa-thumbs-down{
+	color: red;
+}
+#content-wrapper{
+	background-color: #efefef;
+}

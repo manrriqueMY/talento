@@ -1,21 +1,31 @@
-#company_header{
-	height: 100px;
-	display: flex;
-	justify-content: space-between;
-	background-color: #000;
-	padding: 20px;
+.company-banner {
+    background: #FF9999;
+    height: 260px;
+    width: 100%;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
 }
-#company_header > div{
-	display: flex;
-	align-items: center;
+.company-banner:hover{
+    background-color: #FFC4C4;
 }
+
+#company_header {
+    margin-top: -100px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    padding: 15px;
+    height: 110px;
+}
+
 .header{
 	font-size: 18px;
-	color: white;
 }
-.header a{
-	color: white;
+
+#job_header .heading-title {
+    color: #FF9999;
+    font-size: 24px;
 }
+
 #job_header .heading{
 	margin-top: 30px;
 	display: flex;
@@ -35,7 +45,6 @@
 }
 .job_section {
     margin-top: 20px;
-    padding:20px;
 	background-color: white;
 }
 .msg_bg a{
@@ -52,8 +61,6 @@
 }
 .added_item {
     font-size: 13px;
-    background-color: gray;
-    color: #fff;
     border: 1px solid #555;
     border-radius: 3px;
     padding: 3px 10px;
@@ -61,6 +68,30 @@
     float: left;
     margin: 0 5px 5px 0;
 }
-#content-wrapper{
-	background-color: #efefef;
+
+.img_wrapper{
+    margin-top: 15px;
+}
+@media(max-width: 767px){
+    .img_wrapper{
+        display: none;
+    }
+    .stats {
+        display: none;
+    }
+    #postula{
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+#company_header a, #company_header .subtitle , #company_header .name{
+    color: #FF9999;
+}
+#company_header .name{
+    font-size: 32px;
+}
+#company_header .subtitle {
+    font-size: 13px;
 }

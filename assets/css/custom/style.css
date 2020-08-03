@@ -3,7 +3,7 @@ body{
     padding: 0px;
     font-size:12px;
     color: #575958;
-    font-family: "Open Sans", "Helvetica Neue", "Roboto",Verdana, Helvetica, Arial, sans-serif;
+    font-family: "Lato","Open Sans", "Helvetica Neue", "Roboto",Verdana, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     background-color: #ffffff;
 }
@@ -36,7 +36,6 @@ header .logo{
 }
 header .logo img{
     max-width: 180px;
-    margin-left: -4px;
 }
 header nav{
     width: calc(100% - 500px);
@@ -161,6 +160,7 @@ header .menu-mobile div:focus + nav.menu-mobile{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    max-width: 600px;
 }
 .slider .slider-text h1{
     font-size: 24px;
@@ -368,16 +368,16 @@ footer a:hover{
     margin-top: 30px;
 }
 
-.heading-title::before {
+.line-title::before {
     content: "";
     display: block;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     height: 1px;
     z-index: 9;
     background: #e6e6e6;
+    top: 9px;
 }
-.heading-title::after {
+.line-title::after {
     background: #FF9999;
     content: "";
     display: block;
@@ -385,13 +385,17 @@ footer a:hover{
     z-index: 10;
     width: 80px;
     height: 1px;
-    margin: 20px 0 0;
 }
 .row{
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: 0px;
     margin-left: 0px;
+}
+.col-md-8, .container{
+    padding-right: 0px;
+    padding-left: 0px;
 }
 #whoWeAre p, #mission p {
     margin-top: 30px;
@@ -421,4 +425,60 @@ footer a:hover{
 }
 .tox-notifications-container{
     display: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+@media (max-width: 1000px) {
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+#content-wrapper{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.modal-content{
+    background-color: #f3f5f7;
+}
+
+.radio{
+    display:none
+}
+.radio ~ label {
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 37px;
+    min-width: 37px;
+    border: 1px solid #ccc;
+}
+.radio:checked ~ label{
+    color: #555 !important;
+    background: #FF9999;
+}
+.radio:checked ~ label{
+    color: white !important;
+}
+.radio:checked ~ label{
+    font-weight: bold;
+    color: #000;
+}
+.r0{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.r1{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

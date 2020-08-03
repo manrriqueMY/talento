@@ -1,0 +1,36 @@
+.content_title_menu .menu_wrapper .link {
+    color: #222;
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none !important;
+}
+.no_min {
+    min-height: 10px !important;
+    margin-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main_content {
+    background-color: #fff;
+    padding: 10px;
+    min-height: 550px;
+    border: 1px solid #e7eeed;
+}
+.control-label{
+    color: #888;
+}
+.btn-group, .btn-group-vertical {
+    flex-wrap: wrap;
+}
+.fa-question-circle{
+    color: #62a7d8;
+}
+@media (max-width: 767px) {
+    .btn-block-xs {
+        display: block;
+        width: 100%;
+    }
+}
