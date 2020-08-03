@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Talento Inclusivo</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />        
         <link rel="stylesheet" href="/assets/css/app.css">
         <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/all.css">
@@ -105,7 +108,7 @@
         </div>
     </div>
 </header>        <div class="container">
-  <div class="row">
+    <div class="row">
         <div class="col-md-8">
             <br>
             <div class="msg_bg">
@@ -1188,13 +1191,14 @@
             </div>
         </div>
     </div>
-</div>    <div class="col-md-4 hidsn-sm hidden-xs">
+</div>      <div class="col-md-4 hidsn-sm hidden-xs">
     <div id="side_bar_profile">
         <div class="heading-title">
             <h4>
                 Foto de Perfil
                 <span class="pull-right"><a href="#" onclick=""><i class="fas fa-edit"></i> Cambiar</a></span>                
             </h4>
+            <div class="line-title"><h4> </h4></div>
         </div>
         <br>
         <div class="photo">
@@ -1203,8 +1207,8 @@
         <div class="section">                        
             <div class="completeness_number"> 0 % </div>
 
-            <div style="min-height:7px; background-color: #f1f1f1; border-radius:3px; margin:5px 0px;">
-                <div style="min-height:7px; width:0%; background-color: #FF9999; border-radius:3px;"></div>
+            <div class="progressbar">
+                <div class="progressa" style="width:20%;"></div>
             </div>
 
             <a class="btn btn-block btn-primary" href="/account/profile/download">Descargar curriculum</a>
@@ -1243,55 +1247,56 @@
                         </a>
                     </div>
                     
-                                        <div class="item not_done">
-                            <a href="/account/perfil#careers">
-                                Educación superior                             <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#schools">
-                                Educación básica y media
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#postgraduates">
-                                Postgrados
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
+                    <div class="item not_done">
+                        <a href="/account/perfil#careers">
+                            Educación superior
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#schools">
+                            Educación básica y media
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#postgraduates">
+                            Postgrados
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
 
-                                        <div class="item not_done">
-                            <a href="/account/perfil#additional">
-                                Información adicional
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#langs">
-                                Idiomas
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#habilities">
-                                Habilidades
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/tests">
-                                Evaluaciones laborales
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                                </div>
+                    <div class="item not_done">
+                        <a href="/account/perfil#additional">
+                            Información adicional
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#langs">
+                            Idiomas
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#habilities">
+                            Habilidades
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/tests">
+                            Evaluaciones laborales
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
@@ -1499,7 +1504,7 @@
         
         <script src="/assets/js/app.js"></script>
         <script src="/assets/plugins/slick/slick.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
         <script src="/assets/js/custom/login.js"></script>
         <script>
   function ShowQuestionTest(n) {

@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Talento Inclusivo</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />        
         <link rel="stylesheet" href="/assets/css/app.css">
         <link rel="stylesheet" href="/assets/plugins/fontawesome-5/css/all.css">
@@ -104,246 +107,254 @@
             </nav>
         </div>
     </div>
-</header>        <div class="container">
-	<div class="row">
-		<div class="col-md-8">
-		    <br>
-		    <div class="alert alert-info" role="alert">
-		        Si tienes dudas sobre como completar tu perfil escribenos a <a
-		            href="mailto: contacto@talentoinclusivo.com?subject='Necesito ayuda para completar mi perfil'"
-		            target="_blank">contacto@talentoinclusivo.com</a>
-		    </div>
-		    <div class="clean-profile">
-		        <div class="box" id="info">
-		            <div class="heading-title">
-		                <h4>
-		                    <span class="pull-right"><a onclick="" href="#"><i class="fas fa-edit"></i> Editar</a></span>
-		                    Información General&nbsp;&nbsp;<i class="fa fa-bookmark"></i>
-		                </h4>
-		            </div>
-		            <div class="content_view">
-		                <div class="field">
-		                    <div class="name col-sm-4">Nombre completo</div>
-		                    <div class="data col-sm-8">manrrique meneses</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Correo electrónico</div>
-		                    <div class="data col-sm-8">manrrique.my@gmail.com <a href="/account/config">(Cambiar nombre de
-		                            usuario)</a></div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Fecha de nacimiento</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">N° de Identificación</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Género</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Nacionalidad</div>
-		                    <div class="data col-sm-8">Chile</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Ubicación</div>
-		                    <div class="data col-sm-8">Chile</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Dirección</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Estado civil</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Teléfono fijo</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                <div class="field">
-		                    <div class="name col-sm-4">Celular</div>
-		                    <div class="data col-sm-8">No definido</div>
-		                    
-		                </div>
-		                
-		            </div>
-		        </div>
-		        <div class="box" id="presentation">
-		            <div class="heading-title">
-		                <h4>Presentación</h4>
-		            </div>
-		            <div class="content_view">
-		                <div class="white_bg">
-		                    <h5>Tu presentación debe ser concisa y cautivante</h5>
-		                    <p class="tb10">Debe captar la atención de la persona que la lea y hacer que desee ver más en
-		                        detalle tu perfil. Puedes hablar sobre tus estudios y/o también explicar lo que puedes aportar
-		                        mediante logros y/o experiencias, qué habilidades y fortalezas tienes.</p>
-		                    <div class="text-center tb10">
-		                        <a class="btn btn-primary " onclick="" href="#" ><i
-		                                class="fa fa-plus-circle"></i> Agregar presentación</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
+</header>        
+<div id="content-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+			    <br>
+			    <div class="alert alert-info" role="alert">
+			        Si tienes dudas sobre como completar tu perfil escribenos a <a
+			            href="mailto: contacto@talentoinclusivo.com?subject='Necesito ayuda para completar mi perfil'"
+			            target="_blank">contacto@talentoinclusivo.com</a>
+			    </div>
+			    <div class="clean-profile">
+			        <div class="box" id="info">
+			            <div class="heading-title">
+			                <h4>
+			                    <span class="pull-right"><a data-toggle="modal" data-target="#main_modal" onclick="" href="#"><i class="fas fa-edit"></i> Editar</a></span>
+			                    Información General&nbsp;&nbsp;<i class="fa fa-bookmark"></i>
+			                </h4>
+			                <div class="line-title"><h4> </h4></div>
+			            </div>
+			            <div class="content_view">
+			                <div class="field">
+			                    <div class="name col-sm-4">Nombre completo</div>
+			                    <div class="data col-sm-8">manrrique meneses</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Correo electrónico</div>
+			                    <div class="data col-sm-8">manrrique.my@gmail.com <a href="/account/config">(Cambiar nombre de
+			                            usuario)</a></div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Fecha de nacimiento</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">N° de Identificación</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Género</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Nacionalidad</div>
+			                    <div class="data col-sm-8">Chile</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Ubicación</div>
+			                    <div class="data col-sm-8">Chile</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Dirección</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Estado civil</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Teléfono fijo</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                <div class="field">
+			                    <div class="name col-sm-4">Celular</div>
+			                    <div class="data col-sm-8">No definido</div>
+			                    
+			                </div>
+			                
+			            </div>
+			        </div>
+			        <div class="box" id="presentation">
+			            <div class="heading-title">
+			                <h4>Presentación</h4>
+			            </div>
+			            <div class="line-title"><h4> </h4></div>
+			            <div class="content_view">
+			                <div class="white_bg">
+			                    <h5>Tu presentación debe ser concisa y cautivante</h5>
+			                    <p class="tb10">Debe captar la atención de la persona que la lea y hacer que desee ver más en
+			                        detalle tu perfil. Puedes hablar sobre tus estudios y/o también explicar lo que puedes aportar
+			                        mediante logros y/o experiencias, qué habilidades y fortalezas tienes.</p>
+			                    <div class="text-center tb10">
+			                        <a class="btn btn-primary " data-toggle="modal" data-target="#main_modal" onclick="" href="#" ><i
+			                                class="fa fa-plus-circle"></i> Agregar presentación</a>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
 
-		        <div class="box" id="disabilities">
-		            <div class="heading-title">
-		                <h4>Inclusión Laboral</h4>
-		            </div>
-		            <div class="content_view">
-		                <div class="white_bg">
-		                    <div class="item"></div>
-		                    <div class="text-center">
-		                        <a class="btn btn-primary " onclick="" href="#" ><i class="fas fa-edit"></i> Editar Inclusión Laboral</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
+			        <div class="box" id="disabilities">
+			            <div class="heading-title">
+			                <h4>Inclusión Laboral</h4>
+			            </div>
+			            <div class="line-title"><h4> </h4></div>
+			            <div class="content_view">
+			                <div class="white_bg">
+			                    <div class="item"></div>
+			                    <div class="text-center">
+			                        <a class="btn btn-primary " data-toggle="modal" data-target="#main_modal" onclick="" href="#" ><i class="fas fa-edit"></i> Editar Inclusión Laboral</a>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
 
-		        <div class="box" id="experience">
-		            <div class="heading-title">
-		                <h4>Experiencia Laboral</h4>
-		            </div>
-		            <div class="content_view">
-		                <h5 class="sub">  Años de experiencia  </h5>
-		                <div class="white_bg">
-		                	<div class="item">
-		                    </div>
-		                    <div class="text-center">
-		                        <a class="btn btn-primary " onclick="" href="#" ><i class="fas fa-edit"></i> Editar años de experiencia</a>
-		                    </div>
-		                </div>
-		            </div>
+			        <div class="box" id="experience">
+			            <div class="heading-title">
+			                <h4>Experiencia Laboral</h4>
+			            </div>
+			            <div class="line-title"><h4> </h4></div>
+			            <div class="content_view">
+			                <h5 class="sub">  Años de experiencia  </h5>
+			                <div class="white_bg">
+			                	<div class="item">
+			                    </div>
+			                    <div class="text-center">
+			                        <a class="btn btn-primary " data-toggle="modal" data-target="#main_modal" onclick="" href="#" ><i class="fas fa-edit"></i> Editar años de experiencia</a>
+			                    </div>
+			                </div>
+			            </div>
 
-		            <div class="content_view">
-		                <h5 class="sub">   Emprendimiento   </h5>
-		                <div class="white_bg">
-		                    <div class="item">
-		                    </div>
-		                    <div class="text-center">
-		                        <a class="btn btn-primary " onclick="" href="#" ><i class="fas fa-edit"></i> Editar Emprendimiento</a>
-		                    </div>
-		                </div>
-		            </div>
+			            <div class="content_view">
+			                <h5 class="sub">   Emprendimiento   </h5>
+			                <div class="white_bg">
+			                    <div class="item">
+			                    </div>
+			                    <div class="text-center">
+			                        <a class="btn btn-primary " data-toggle="modal" data-target="#main_modal" onclick="" href="#" ><i class="fas fa-edit"></i> Editar Emprendimiento</a>
+			                    </div>
+			                </div>
+			            </div>
 
-		            <div class="content_view" id="jobs">
-		                <h5 class="sub">
-		                    Trabajos y prácticas
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar trabajo</a>
-		                </div>
-		            </div>
-		        </div>
+			            <div class="content_view" id="jobs">
+			                <h5 class="sub">
+			                    Trabajos y prácticas
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar trabajo</a>
+			                </div>
+			            </div>
+			        </div>
 
-		        <div class="box">
-		            <div class="heading-title">
-		                <h4>Formación</h4>
-		            </div>
-		            <div class="content_view">
-		                <h5 class="sub" id="educationLevel">
-		                    Nivel educacional
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-pencil"></i> Editar</a>
-		                </h5>
-		                <div>
-		                    <div class="item text-center">
-		                        <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-pencil"></i> Editar nivel educacional</a>
-		                        
-		                    </div>
-		                </div>
-		            </div>
+			        <div class="box">
+			            <div class="heading-title">
+			                <h4>Formación</h4>
+			            </div>
+			            <div class="line-title"><h4> </h4></div>
+			            <div class="content_view">
+			                <h5 class="sub" id="educationLevel">
+			                    Nivel educacional
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-pencil"></i> Editar</a>
+			                </h5>
+			                <div>
+			                    <div class="item text-center">
+			                        <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-pencil"></i> Editar nivel educacional</a>
+			                        
+			                    </div>
+			                </div>
+			            </div>
 
-		            <div class="content_view">
-		                <h5 class="sub" id="careers">
-		                    Educación superior <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar carrera</a>
-		                </div>
-		            </div>
+			            <div class="content_view">
+			                <h5 class="sub" id="careers">
+			                    Educación superior <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar carrera</a>
+			                </div>
+			            </div>
 
-		            <div class="content_view">
-		                <h5 class="sub" id="schools">
-		                    Educación básica y media
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar colegio</a>
-		                </div>
-		            </div>
+			            <div class="content_view">
+			                <h5 class="sub" id="schools">
+			                    Educación básica y media
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar colegio</a>
+			                </div>
+			            </div>
 
 
-		            <div class="content_view">
-		                <h5 class="sub" id="postgraduates">
-		                    Postgrados
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar postgrado</a>
-		                </div>
-		            </div>
+			            <div class="content_view">
+			                <h5 class="sub" id="postgraduates">
+			                    Postgrados
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar postgrado</a>
+			                </div>
+			            </div>
 
-		            <div class="content_view">
-		                <h5 class="sub" id="additional">
-		                    Información adicional
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar información adicional</a>
-		                </div>
-		            </div>
+			            <div class="content_view">
+			                <h5 class="sub" id="additional">
+			                    Información adicional
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar información adicional</a>
+			                </div>
+			            </div>
 
-		        </div>
+			        </div>
 
-		        <div class="box">
-		            <div class="heading-title">
-		                <h4>Conocimientos</h4>
-		            </div>
+			        <div class="box">
+			            <div class="heading-title">
+			                <h4>Conocimientos</h4>
+			            </div>
+						<div class="line-title"><h4> </h4></div>
+			            <div class="content_view">
+			                <h5 class="sub" id="langs">
+			                    Idiomas
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar idioma</a>
+			                </div>
+			            </div>
 
-		            <div class="content_view">
-		                <h5 class="sub" id="langs">
-		                    Idiomas
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar idioma</a>
-		                </div>
-		            </div>
-
-		            <div class="content_view">
-		                <h5 class="sub" id="habilities">
-		                    Habilidades
-		                    <a onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
-		                </h5>
-		                <div class="item text-center">
-		                    <a onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar habilidad</a>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		    <br>
-		</div>
-		<div class="col-md-4 hidsn-sm hidden-xs">
+			            <div class="content_view">
+			                <h5 class="sub" id="habilities">
+			                    Habilidades
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="add pull-right"><i class="fa fa-plus-circle"></i> Agregar</a>
+			                </h5>
+			                <div class="item text-center">
+			                    <a data-toggle="modal" data-target="#main_modal" onclick="" href="#" class="btn btn-primary add_item " ><i class="fa fa-plus-circle"></i> Agregar habilidad</a>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <br>
+			</div>
+			<div class="col-md-4 hidsn-sm hidden-xs">
     <div id="side_bar_profile">
         <div class="heading-title">
             <h4>
                 Foto de Perfil
                 <span class="pull-right"><a href="#" onclick=""><i class="fas fa-edit"></i> Cambiar</a></span>                
             </h4>
+            <div class="line-title"><h4> </h4></div>
         </div>
         <br>
         <div class="photo">
@@ -352,8 +363,8 @@
         <div class="section">                        
             <div class="completeness_number"> 0 % </div>
 
-            <div style="min-height:7px; background-color: #f1f1f1; border-radius:3px; margin:5px 0px;">
-                <div style="min-height:7px; width:0%; background-color: #FF9999; border-radius:3px;"></div>
+            <div class="progressbar">
+                <div class="progressa" style="width:20%;"></div>
             </div>
 
             <a class="btn btn-block btn-primary" href="/account/profile/download">Descargar curriculum</a>
@@ -392,55 +403,56 @@
                         </a>
                     </div>
                     
-                                        <div class="item not_done">
-                            <a href="/account/perfil#careers">
-                                Educación superior                             <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#schools">
-                                Educación básica y media
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#postgraduates">
-                                Postgrados
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
+                    <div class="item not_done">
+                        <a href="/account/perfil#careers">
+                            Educación superior
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#schools">
+                            Educación básica y media
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#postgraduates">
+                            Postgrados
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
 
-                                        <div class="item not_done">
-                            <a href="/account/perfil#additional">
-                                Información adicional
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#langs">
-                                Idiomas
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#habilities">
-                                Habilidades
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/tests">
-                                Evaluaciones laborales
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                                </div>
+                    <div class="item not_done">
+                        <a href="/account/perfil#additional">
+                            Información adicional
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#langs">
+                            Idiomas
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#habilities">
+                            Habilidades
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/tests">
+                            Evaluaciones laborales
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
@@ -471,7 +483,183 @@
         </div>
         <br>
     </div>
-</div>	</div>
+</div>			<div class="modal" id="main_modal" aria-hidden="false">    
+    <div class="modal-dialog">
+        <div class="modal-content" id="pop_up_window">
+            <div class="modal-header">
+                <h4 class="modal-title">Experiencia laboral</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>                
+            </div>
+            <form name="UserJob" method="post" action="#" id="user_job_form" class="needs-validation" novalidate="true">
+                <div class="modal-body">
+                    
+                    <div class="row">
+                        <div class="form-group  has-feedback col-md-12 ">
+                            <label class="control-label required" for="UserJob_title">Cargo</label>
+                            <span class="twitter-typeahead">
+                                <input id="title" type="text" list="browsers" col="col-md-12 " class="form-control" required>                   
+                            </span>
+                        </div>
+                        <div class="form-group  has-feedback col-md-12  ">
+                            <label class="control-label required" for="UserJob_companyName">Empresa</label> 
+                            <span class="twitter-typeahead">
+                                <input type="text" name="companyName" list="browsers"  id="companyName" col="col-md-12  " class="form-control " required>
+                            </span>
+                        </div>
+                        
+                        <datalist id="browsers">
+                          <option value="Chrome">
+                          <option value="Firefox">
+                          <option value="Internet Explorer">
+                          <option value="Opera">
+                          <option value="Safari">
+                          <option value="Microsoft Edge">
+                        </datalist>
+
+                        <div class="form-group  has-feedback col-md-6 ">
+                            <label class="control-label required" for="UserJob_jobArea">Área de trabajo</label>
+                            <select id="UserJob_jobArea" name="jobArea" required col="col-md-6 " onchange=""  class="custom-select">
+                                <option value="" selected="selected">Área de trabajo</option>
+                                <option value="13">Administración</option>
+                                <option value="16">Consultoría</option>
+                                <option value="19">Contabilidad</option>
+                                <option value="14">Control de Gestión</option>
+                                <option value="2">Creatividad y Diseño</option>
+                                <option value="4">Editorial</option>
+                                <option value="15">Educación</option>   
+                                <option value="1">Estrategia y Desarrollo de Negocios</option>
+                                <option value="6">Finanzas</option>
+                                <option value="21">Gatronomía y hotelería</option>
+                            </select>
+                        </div>
+                        <div class="form-group  has-feedback col-md-6 ">
+                            <label class="control-label required" for="jobTypeSelect">Tipo de cargo</label>
+                            <select id="jobTypeSelect" name="jobType" required col="col-md-6 "  class="custom-select">
+                                <option value="" selected="selected">Tipo de cargo</option>
+                                <option value="9">Gerente General</option>
+                                <option value="100">Analista</option>
+                                <option value="101">Analista Sr</option>
+                                <option value="102">Jefe</option>
+                                <option value="103">Subgerente</option>
+                                <option value="104">Gerente</option>
+                                <option value="105">Asistente</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="form-group  has-feedback col-md-6 ">
+                            <label class="control-label required">¿Es una práctica?</label><br>                    
+                            <div id="UserJob_internship" col="col-md-6 " class="btn-group">
+                                <label class="">
+                                    <input type="radio" class="radio" id="UserJob_internship_0" name="internship" required value="0" checked>
+                                    <label class="r0" for="UserJob_internship_0">No</label>
+                                </label>
+                                <label class="">
+                                    <input type="radio" class="radio" id="UserJob_internship_1" name="internship" required value="1">
+                                    <label class="r1"  for="UserJob_internship_1">Si</label>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group  has-feedback col-md-6 ">
+                            <label class="control-label required">¿Es tu trabajo actual?</label><br>                        
+                            <div id="current" col="col-md-6 " class="btn-group">
+                                <label class="">
+                                    <input type="radio" class="radio" id="UserJob_current_0" name="current" required value="0" checked>
+                                    <label class="r0" for="UserJob_current_0">No</label>
+                                </label>
+                                <label class="" > 
+                                    <input type="radio" class="radio" id="UserJob_current_1" name="current" required value="1">
+                                    <label class="r1" for="UserJob_current_1">Si</label>
+                                </label>
+                            </div>
+                        </div>
+                        
+
+                        <div class="form-group  has-feedback col-md-3 ">
+                            <label class="control-label required" for="UserJob_initialMonth">Fecha</label>
+                            <select id="UserJob_initialMonth" name="initialMonth" required col="col-md-3 " class="custom-select">
+                                <option value="" selected="selected">Mes</option>
+                                <option value="1">Ene</option>
+                                <option value="2">Feb</option>
+                                <option value="3">Mar</option>
+                                <option value="4">Abr</option>
+                                <option value="5">May</option>
+                                <option value="6">Jun</option>
+                                <option value="7">Jul</option>
+                                <option value="8">Ago</option>
+                                <option value="9">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dic</option>
+                            </select>
+                        </div>
+                        <div class="form-group  has-feedback col-md-3 ">
+                            <label class="control-label required" for="UserJob_initialYear">Inicio</label>
+                            <select id="UserJob_initialYear" name="initialYear" required col="col-md-3 " class="custom-select">
+                                <option value="" selected="selected">Año</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+
+                            <div class="form-group  has-feedback col-md-3 ">
+                                <label class="control-label required" for="UserJob_endMonth">Fecha</label>
+                                <select id="UserJob_endMonth" name="endMonth" required="" col="col-md-3 "  class="custom-select">
+                                    <option value="" selected="selected">Mes</option>
+                                    <option value="1">Ene</option>
+                                    <option value="2">Feb</option>
+                                    <option value="3">Mar</option>
+                                    <option value="4">Abr</option>
+                                    <option value="5">May</option>
+                                    <option value="6">Jun</option>
+                                    <option value="7">Jul</option>
+                                    <option value="8">Ago</option>
+                                    <option value="9">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dic</option>
+                                </select> 
+                            </div>
+                            <div class="form-group  has-feedback col-md-3 "> 
+                                <label class="control-label required" for="UserJob_endYear">Término</label> 
+                                <select id="UserJob_endYear" name="endYear" required="" col="col-md-3" class="custom-select">
+                                    <option value="" selected="selected">Año</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                </select> 
+                            </div>                
+
+                        <div class="form-group  has-feedback col-md-12">
+                            <label class="control-label required" for="UserJob_detail">Detalle</label>
+                            <textarea id="UserJob_detail" name="detail" required col="col-md-12" rows="4" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cancel" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>		</div>
+	</div>
 </div>
 
 
@@ -648,7 +836,7 @@
         
         <script src="/assets/js/app.js"></script>
         <script src="/assets/plugins/slick/slick.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
         <script src="/assets/js/custom/login.js"></script>
             </body>
 </html>
