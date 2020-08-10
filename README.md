@@ -41,3 +41,11 @@ ruta : '/company/job/nuevo' => 'company/job/nuevo.html'
 
 ruta : '/admin/cargo' => 'admin/cargo.html'
 ````
+
+# Rutas
+
+` template/web.php `
+
+# Vistas separadas
+
+` template/views/ `
