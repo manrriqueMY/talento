@@ -1,0 +1,26 @@
+.candidate{
+	display: flex;
+	flex-wrap: wrap;
+}
+.candidate .img{
+	height: 100px;
+	width:  150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.candidate .postule{
+	float: right;
+}
+.candidate .desc{
+	flex: 70%;
+	display: flex;
+	max-width: 70%;
+}
+@media (max-width: 600px) {
+	.candidate .desc, .candidate .postule{
+		flex-wrap: wrap;
+		flex: 100%;
+		max-width: 100%;
+	}	
+}
